@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_View",
+      "brokenLocator": "(//a[contains(text(),\u0027View\u0027)])[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Offer Letter Template\u0027])[1]/preceding::a[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211123_150252/FBN Credit360 LOS Operation/LOS Operation/20211123_150252/Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_View_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_View_ui-paginator-last ui-paginator-eleme_7bfffe",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027View\u0027])[10]/following::a[9]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@href \u003d \u0027#\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20211123_150252/FBN Credit360 LOS Operation/LOS Operation/20211123_150252/Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_View_ui-paginator-last ui-paginator-eleme_7bfffe_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/a_View_ui-paginator-last ui-paginator-eleme_7bfffe",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027View\u0027])[10]/following::a[9]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@href \u003d \u0027#\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/20211123_150252/FBN Credit360 LOS Operation/LOS Operation/20211123_150252/Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/a_View_ui-paginator-last ui-paginator-eleme_7bfffe_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_Use",
+      "brokenLocator": "//a[contains(text(),\u0027Use\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Available Security\u0027])[2]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211123_150252/FBN Credit360 LOS Operation/LOS Operation/20211123_150252/Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_Use_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LOS Operation,Chrome 95.0.4638.69,,,2021-11-23 15:02:55,2021-11-23 16:18:39,1h - 15m - 44.304s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login,Chrome 95.0.4638.69,,,2021-11-23 15:02:55,2021-11-23 15:04:01,1m - 5.456s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:02:56,2021-11-23 15:02:59,2.917s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:02:59,2021-11-23 15:03:53,54.251s,PASSED
+"setText(findTestObject(""Object Repository/Login-/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN019641"")",Chrome 95.0.4638.69,,,2021-11-23 15:03:53,2021-11-23 15:04:00,6.967s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login-/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:04:00,2021-11-23 15:04:00,0.462s,PASSED
+"click(findTestObject(""Object Repository/Login-/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:04:00,2021-11-23 15:04:01,0.497s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Credit Origination,Chrome 95.0.4638.69,,,2021-11-23 15:04:01,2021-11-23 15:05:26,1m - 25.385s,PASSED
+"callTestCase(findTestCase(""FBN Credit360 LOS Opeartion/Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-23 15:04:01,2021-11-23 15:05:05,1m - 3.952s,PASSED
+"click(findTestObject(""Object Repository/Credit Origination/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:05:05,2021-11-23 15:05:26,20.684s,PASSED
+"click(findTestObject(""Object Repository/Credit Origination/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:05:26,2021-11-23 15:05:26,0.499s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Start Credit Application,Chrome 95.0.4638.69,,,2021-11-23 15:05:26,2021-11-23 15:07:14,1m - 47.725s,PASSED
+"callTestCase(findTestCase(""FBN Credit360 LOS Opeartion/Credit Origination""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-23 15:05:27,2021-11-23 15:06:40,1m - 13.414s,PASSED
+"click(findTestObject(""Object Repository/Start Credit Application/Page_Fintrak  Core Banking/a_Start Credit Application""))",Chrome 95.0.4638.69,,,2021-11-23 15:06:40,2021-11-23 15:06:40,0.523s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Start Credit Application/Page_Fintrak  Core Banking/select_--- Select Customer Type --- Single _fce174""), ""1"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:06:40,2021-11-23 15:07:01,20.688s,PASSED
+"click(findTestObject(""Object Repository/Start Credit Application/Page_Fintrak  Core Banking/button_Next""))",Chrome 95.0.4638.69,,,2021-11-23 15:07:01,2021-11-23 15:07:02,0.537s,PASSED
+"setText(findTestObject(""Object Repository/Start Credit Application/Page_Fintrak  Core Banking/input_Existing - Customer already have acco_fd2ab1""), ""main"")",Chrome 95.0.4638.69,,,2021-11-23 15:07:02,2021-11-23 15:07:03,0.860s,PASSED
+"waitForElementNotClickable(findTestObject(""Start Credit Application/Page_Fintrak  Core Banking/div_Customer Branch_ui-radiobutton-box ui-w_9e8bc6""), 10)",Chrome 95.0.4638.69,,,2021-11-23 15:07:03,2021-11-23 15:07:14,11.043s,PASSED
+"click(findTestObject(""Object Repository/Start Credit Application/Page_Fintrak  Core Banking/div_Customer Branch_ui-radiobutton-box ui-w_9e8bc6""))",Chrome 95.0.4638.69,,,2021-11-23 15:07:14,2021-11-23 15:07:14,0.386s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Update Credit Bureau,Chrome 95.0.4638.69,,,2021-11-23 15:07:14,2021-11-23 15:09:20,2m - 5.597s,PASSED
+"callTestCase(findTestCase(""FBN Credit360 LOS Opeartion/Start Credit Application""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-23 15:07:14,2021-11-23 15:08:36,1m - 21.642s,PASSED
+"click(findTestObject(""Object Repository/Update Credit Bureau/Page_Fintrak  Core Banking/button_Upload Credit Bureau Report""))",Chrome 95.0.4638.69,,,2021-11-23 15:08:36,2021-11-23 15:08:59,23.419s,PASSED
+"click(findTestObject(""Object Repository/Update Credit Bureau/Page_Fintrak  Core Banking/span_Proceed""))",Chrome 95.0.4638.69,,,2021-11-23 15:08:59,2021-11-23 15:09:09,10.033s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Update Credit Bureau/Page_Fintrak  Core Banking/select_--- Select Application Type --- CAM _b68b56""), ""2"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:09:09,2021-11-23 15:09:20,10.228s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Start New Loan Application,Chrome 95.0.4638.69,,,2021-11-23 15:10:28,2021-11-23 15:12:15,1m - 47.337s,PASSED
+"callTestCase(findTestCase(""FBN Credit360 LOS Opeartion/Update Credit Bureau""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-23 15:10:28,2021-11-23 15:11:52,1m - 24.058s,PASSED
+"click(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/button_New Loan Application""))",Chrome 95.0.4638.69,,,2021-11-23 15:11:52,2021-11-23 15:11:53,1.284s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/select_-- Select Require Collateral --Immov_123cfd""), ""3"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:11:53,2021-11-23 15:12:08,14.925s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/select_--- Select Product Class --- Not In _42f3e7""), ""5"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:12:08,2021-11-23 15:12:09,1.205s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/select_--- Select Business Unit --- Corpora_a8e2c7""), ""3"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:12:09,2021-11-23 15:12:10,1.263s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/select_-- Select Region -- RPC  Recent Test_689ea9""), ""9"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:12:10,2021-11-23 15:12:12,1.372s,PASSED
+"click(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/span_Add Desk Code""))",Chrome 95.0.4638.69,,,2021-11-23 15:12:12,2021-11-23 15:12:12,0.401s,PASSED
+"setText(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/input_Desk Code_misCodeField""), ""36061"")",Chrome 95.0.4638.69,,,2021-11-23 15:12:12,2021-11-23 15:12:13,0.815s,PASSED
+"click(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/button_Search Desk Code""))",Chrome 95.0.4638.69,,,2021-11-23 15:12:13,2021-11-23 15:12:13,0.377s,PASSED
+"click(findTestObject(""Object Repository/Start New Loan Application/Page_Fintrak  Core Banking/button_Add Desk Code""))",Chrome 95.0.4638.69,,,2021-11-23 15:12:13,2021-11-23 15:12:15,1.628s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Add Facility,Chrome 95.0.4638.69,,,2021-11-23 15:16:41,2021-11-23 15:19:39,2m - 57.417s,PASSED
+"callTestCase(findTestCase(""FBN Credit360 LOS Opeartion/Start New Loan Application""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-23 15:16:41,2021-11-23 15:17:45,1m - 4.022s,PASSED
+"click(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/span_Add Facility""))",Chrome 95.0.4638.69,,,2021-11-23 15:17:45,2021-11-23 15:17:46,0.654s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_CASH BACKED OVERDRAFT  CASH BACKED T_eccdf1""), ""48"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:17:46,2021-11-23 15:17:50,3.627s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_ACTIVITIES OF EXTRATERRITORIAL ORGAN_8de441""), ""1"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:17:50,2021-11-23 15:18:03,13.601s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_---Select Subsector--- Crop Producti_fdb3a7""), ""9"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:18:03,2021-11-23 15:18:13,10.143s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_CASH BACKED TERM LOAN - EUR  CASH BA_3c57de""), ""48"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:18:13,2021-11-23 15:18:15,1.288s,PASSED
+"setText(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/input_Proposed Tenor_proposedTenor""), ""30"")",Chrome 95.0.4638.69,,,2021-11-23 15:18:15,2021-11-23 15:18:34,19.225s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_31  30.99  30.98  30.97  30.96  30.9_0b66aa""), ""31"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:18:34,2021-11-23 15:19:23,48.603s,PASSED
+"setText(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/input_Facility Amount_proposedAmount""), ""1.8m"")",Chrome 95.0.4638.69,,,2021-11-23 15:19:23,2021-11-23 15:19:23,0.776s,PASSED
+"click(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/body_menuFINTRAK BANK PLC  KADUNA (SOUTH) B_d0ea2a""))",Chrome 95.0.4638.69,,,2021-11-23 15:19:23,2021-11-23 15:19:27,3.562s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_Select CRMS Funding SourceFS1000-Bal_8636d3""), ""168"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:19:27,2021-11-23 15:19:29,2.303s,PASSED
+"click(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/input_Product Price Index Rate (Optional)_p_ff577d""))",Chrome 95.0.4638.69,,,2021-11-23 15:19:29,2021-11-23 15:19:30,0.390s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_Select CRMS Repayment SourceGRS001-B_32c007""), ""117"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:19:30,2021-11-23 15:19:31,1.594s,PASSED
+"setText(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/textarea_Repayment Term_repaymentTerm""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 15:19:31,2021-11-23 15:19:32,0.704s,PASSED
+"setText(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/input_Annual Percentage Rate (APR)_apr""), ""700"")",Chrome 95.0.4638.69,,,2021-11-23 15:19:32,2021-11-23 15:19:33,0.785s,PASSED
+"setText(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/textarea_Facility Purpose_loanPurpose""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 15:19:33,2021-11-23 15:19:33,0.719s,PASSED
+"setText(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/textarea_Repayment Pattern_repaymentDate""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 15:19:33,2021-11-23 15:19:34,0.732s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_Select Operating Account1000790070(S_a64068""), ""5054"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:19:34,2021-11-23 15:19:35,1.289s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_Select Facility Detail TypeENHANCEME_de88f7""), ""1"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:19:35,2021-11-23 15:19:37,1.201s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/select_--Select An Option--  On Total Appro_d77d66""), ""1"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:19:37,2021-11-23 15:19:38,1.102s,PASSED
+"click(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/span_Add Facility_1""))",Chrome 95.0.4638.69,,,2021-11-23 15:19:38,2021-11-23 15:19:38,0.544s,PASSED
+"click(findTestObject(""Object Repository/Add Facility/Page_Fintrak  Core Banking/button_Yes""))",Chrome 95.0.4638.69,,,2021-11-23 15:19:38,2021-11-23 15:19:39,0.547s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Credit Application,Chrome 95.0.4638.69,,,2021-11-23 15:20:55,2021-11-23 15:21:12,17.556s,FAILED
+"callTestCase(findTestCase(""FBN Credit360 LOS Opeartion/Credit Origination""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-11-23 15:20:55,2021-11-23 15:21:08,13.675s,PASSED
+"click(findTestObject(""Object Repository/Credit Application/Page_Fintrak  Core Banking/span_Credit Applications""))",Chrome 95.0.4638.69,,,2021-11-23 15:21:08,2021-11-23 15:21:09,0.502s,PASSED
+"click(findTestObject(""Object Repository/Credit Application/Page_Fintrak  Core Banking/div_Amount_ui-radiobutton ui-widget""))",Chrome 95.0.4638.69,,,2021-11-23 15:21:09,2021-11-23 15:21:12,3.371s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As BM,Chrome 95.0.4638.69,,,2021-11-23 15:22:32,2021-11-23 15:23:14,41.578s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:22:32,2021-11-23 15:22:34,2.005s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:22:34,2021-11-23 15:22:40,5.860s,PASSED
+"setText(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN017882"")",Chrome 95.0.4638.69,,,2021-11-23 15:22:40,2021-11-23 15:22:42,1.486s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:22:42,2021-11-23 15:22:42,0.402s,PASSED
+"click(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:22:42,2021-11-23 15:22:43,0.471s,PASSED
+"click(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:22:43,2021-11-23 15:22:49,6.221s,PASSED
+"click(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:22:49,2021-11-23 15:22:49,0.472s,PASSED
+"click(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:22:49,2021-11-23 15:22:50,0.471s,PASSED
+"click(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/a_2""))",Chrome 95.0.4638.69,,,2021-11-23 15:22:50,2021-11-23 15:23:10,20.310s,PASSED
+"click(findTestObject(""Object Repository/Login As BM/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:23:10,2021-11-23 15:23:14,3.865s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As BDM,Chrome 95.0.4638.69,,,2021-11-23 15:25:12,2021-11-23 15:25:44,32.232s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:25:12,2021-11-23 15:25:14,1.974s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:25:14,2021-11-23 15:25:23,8.301s,PASSED
+"setText(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN023165"")",Chrome 95.0.4638.69,,,2021-11-23 15:25:23,2021-11-23 15:25:24,1.624s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:25:24,2021-11-23 15:25:25,0.427s,PASSED
+"click(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:25:25,2021-11-23 15:25:25,0.461s,PASSED
+"click(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:25:25,2021-11-23 15:25:29,3.768s,PASSED
+"click(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:25:29,2021-11-23 15:25:29,0.487s,PASSED
+"click(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:25:29,2021-11-23 15:25:30,0.486s,PASSED
+"click(findTestObject(""Object Repository/Login As BDM/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:25:30,2021-11-23 15:25:44,14.697s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As GH,Chrome 95.0.4638.69,,,2021-11-23 15:27:22,2021-11-23 15:27:55,33.711s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:27:22,2021-11-23 15:27:24,2.140s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:27:24,2021-11-23 15:27:30,6.438s,PASSED
+"setText(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN022132"")",Chrome 95.0.4638.69,,,2021-11-23 15:27:30,2021-11-23 15:27:33,2.935s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:27:33,2021-11-23 15:27:34,0.392s,PASSED
+"click(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:27:34,2021-11-23 15:27:34,0.472s,PASSED
+"click(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:27:34,2021-11-23 15:27:39,4.811s,PASSED
+"click(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:27:39,2021-11-23 15:27:39,0.502s,PASSED
+"click(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:27:39,2021-11-23 15:27:40,0.521s,PASSED
+"click(findTestObject(""Object Repository/Login As GH/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:27:40,2021-11-23 15:27:55,15.499s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As HOU Route,Chrome 95.0.4638.69,,,2021-11-23 15:29:27,2021-11-23 15:30:26,58.429s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:29:27,2021-11-23 15:29:29,2.008s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:29:29,2021-11-23 15:29:38,9.067s,PASSED
+"setText(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN023387"")",Chrome 95.0.4638.69,,,2021-11-23 15:29:38,2021-11-23 15:29:40,1.547s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:29:40,2021-11-23 15:29:40,0.406s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:29:40,2021-11-23 15:29:41,0.559s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:29:41,2021-11-23 15:29:47,5.784s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:29:47,2021-11-23 15:29:47,0.492s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/span_Routing""))",Chrome 95.0.4638.69,,,2021-11-23 15:29:47,2021-11-23 15:29:48,0.599s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/span_LOS Application Route""))",Chrome 95.0.4638.69,,,2021-11-23 15:29:48,2021-11-23 15:29:48,0.502s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/div_Approval Level_ui-radiobutton-box ui-wi_6d9b00""))",Chrome 95.0.4638.69,,,2021-11-23 15:29:48,2021-11-23 15:30:05,16.393s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/button_Re-route""))",Chrome 95.0.4638.69,,,2021-11-23 15:30:05,2021-11-23 15:30:15,9.772s,PASSED
+"setText(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/input__search""), ""SN02444"")",Chrome 95.0.4638.69,,,2021-11-23 15:30:15,2021-11-23 15:30:15,0.872s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/td_SN024441""))",Chrome 95.0.4638.69,,,2021-11-23 15:30:15,2021-11-23 15:30:18,2.362s,PASSED
+"setText(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/textarea_Comment_comment""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 15:30:18,2021-11-23 15:30:19,0.803s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/button_Send""))",Chrome 95.0.4638.69,,,2021-11-23 15:30:19,2021-11-23 15:30:19,0.367s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU Route/Page_Fintrak  Core Banking/button_OK""))",Chrome 95.0.4638.69,,,2021-11-23 15:30:19,2021-11-23 15:30:26,6.890s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As The Credit Analyst,Chrome 95.0.4638.69,,,2021-11-23 15:33:18,2021-11-23 15:33:55,37.357s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:33:18,2021-11-23 15:33:20,1.975s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:33:20,2021-11-23 15:33:33,12.835s,PASSED
+"setText(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN024441"")",Chrome 95.0.4638.69,,,2021-11-23 15:33:33,2021-11-23 15:33:35,2.771s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:33:35,2021-11-23 15:33:36,0.398s,PASSED
+"click(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:33:36,2021-11-23 15:33:36,0.566s,PASSED
+"click(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:33:36,2021-11-23 15:33:42,5.175s,PASSED
+"click(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:33:42,2021-11-23 15:33:42,0.494s,PASSED
+"click(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:33:42,2021-11-23 15:33:43,0.583s,PASSED
+"click(findTestObject(""Object Repository/Login As The Credit Analyst/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:33:43,2021-11-23 15:33:55,12.553s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As HOU,Chrome 95.0.4638.69,,,2021-11-23 15:33:55,2021-11-23 15:35:09,1m - 13.833s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:33:55,2021-11-23 15:33:57,1.967s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:33:57,2021-11-23 15:34:06,8.084s,PASSED
+"setText(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN023387"")",Chrome 95.0.4638.69,,,2021-11-23 15:34:06,2021-11-23 15:34:07,1.434s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:34:07,2021-11-23 15:34:07,0.435s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:07,2021-11-23 15:34:08,0.471s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:08,2021-11-23 15:34:13,5.087s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:13,2021-11-23 15:34:13,0.513s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:13,2021-11-23 15:34:14,0.612s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/a_PROCESSING_ui-paginator-last ui-paginator_bc1028""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:14,2021-11-23 15:34:33,18.721s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:33,2021-11-23 15:34:39,5.832s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/span_Approve""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:39,2021-11-23 15:34:53,14.684s,PASSED
+"setText(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/textarea_CommentRecommendation_comment""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 15:34:53,2021-11-23 15:34:54,0.818s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/select_-- Select Decision --NoYesYes with c_373052""), ""2"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:34:54,2021-11-23 15:34:55,1.227s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/button_Save and Send""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:55,2021-11-23 15:34:56,0.516s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/button_Yes""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:56,2021-11-23 15:34:59,3.588s,PASSED
+"click(findTestObject(""Object Repository/Login As HOU/Page_Fintrak  Core Banking/button_OK""))",Chrome 95.0.4638.69,,,2021-11-23 15:34:59,2021-11-23 15:35:09,9.584s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As HCAP,Chrome 95.0.4638.69,,,2021-11-23 15:38:19,2021-11-23 15:39:28,1m - 8.768s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:38:19,2021-11-23 15:38:21,2.054s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:38:21,2021-11-23 15:38:30,8.684s,PASSED
+"setText(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN024382"")",Chrome 95.0.4638.69,,,2021-11-23 15:38:30,2021-11-23 15:38:33,2.614s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:38:33,2021-11-23 15:38:33,0.399s,PASSED
+"click(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:38:33,2021-11-23 15:38:34,0.470s,PASSED
+"click(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:38:34,2021-11-23 15:38:39,5.267s,PASSED
+"click(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:38:39,2021-11-23 15:38:39,0.505s,PASSED
+"click(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:38:39,2021-11-23 15:38:40,0.585s,PASSED
+"click(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:38:40,2021-11-23 15:39:02,22.125s,PASSED
+"click(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/span_Approve""))",Chrome 95.0.4638.69,,,2021-11-23 15:39:02,2021-11-23 15:39:28,25.479s,PASSED
+"setText(findTestObject(""Object Repository/Login As HCAP/Page_Fintrak  Core Banking/textarea_CommentRecommendation_comment""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 15:39:28,2021-11-23 15:39:28,0.580s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As Line Executive,Chrome 95.0.4638.69,,,2021-11-23 15:41:19,2021-11-23 15:42:07,48.183s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:41:19,2021-11-23 15:41:21,1.973s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:41:21,2021-11-23 15:41:32,10.915s,PASSED
+"setText(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN025599"")",Chrome 95.0.4638.69,,,2021-11-23 15:41:32,2021-11-23 15:41:37,5.361s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:41:37,2021-11-23 15:41:38,0.396s,PASSED
+"click(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:41:38,2021-11-23 15:41:38,0.489s,PASSED
+"click(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:41:38,2021-11-23 15:41:46,7.257s,PASSED
+"click(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:41:46,2021-11-23 15:41:46,0.468s,PASSED
+"click(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/span_Credit Appraisal""))",Chrome 95.0.4638.69,,,2021-11-23 15:41:46,2021-11-23 15:41:47,0.570s,PASSED
+"click(findTestObject(""Object Repository/Login as Line Executive/Page_Fintrak  Core Banking/div_PROCESSING_ui-radiobutton-box ui-widget_a9aaef""))",Chrome 95.0.4638.69,,,2021-11-23 15:41:47,2021-11-23 15:42:07,20.753s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Offer Letter Generation,Chrome 95.0.4638.69,,,2021-11-23 15:46:45,2021-11-23 15:48:22,1m - 36.820s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:46:45,2021-11-23 15:46:47,1.919s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:46:47,2021-11-23 15:47:00,12.977s,PASSED
+"setText(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN024458"")",Chrome 95.0.4638.69,,,2021-11-23 15:47:00,2021-11-23 15:47:05,4.847s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:47:05,2021-11-23 15:47:05,0.391s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:47:05,2021-11-23 15:47:06,0.469s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_account_balance_walletCreditkeyboard_arrow_down""))",Chrome 95.0.4638.69,,,2021-11-23 15:47:06,2021-11-23 15:47:12,5.646s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:47:12,2021-11-23 15:47:12,0.498s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/span_Generate Offer Letter""))",Chrome 95.0.4638.69,,,2021-11-23 15:47:12,2021-11-23 15:47:13,0.585s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_View_ui-paginator-last ui-paginator-eleme_7bfffe""))",Chrome 95.0.4638.69,,,2021-11-23 15:47:13,2021-11-23 15:47:29,16.309s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/a_View""))",Chrome 95.0.4638.69,,,2021-11-23 15:47:29,2021-11-23 15:48:03,33.667s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/button_Select Offer Letter Template""))",Chrome 95.0.4638.69,,,2021-11-23 15:48:03,2021-11-23 15:48:14,11.593s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/select_-- Select Template --ABRIDGED OFFER _d14531""), ""221"", true)",Chrome 95.0.4638.69,,,2021-11-23 15:48:14,2021-11-23 15:48:16,1.836s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/button_Apply Template""))",Chrome 95.0.4638.69,,,2021-11-23 15:48:16,2021-11-23 15:48:16,0.411s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/button_Yes""))",Chrome 95.0.4638.69,,,2021-11-23 15:48:16,2021-11-23 15:48:17,0.502s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/button_OK""))",Chrome 95.0.4638.69,,,2021-11-23 15:48:17,2021-11-23 15:48:21,4.381s,PASSED
+"click(findTestObject(""Object Repository/Offer Letter Generation/Page_Fintrak  Core Banking/button_Cancel""))",Chrome 95.0.4638.69,,,2021-11-23 15:48:21,2021-11-23 15:48:22,0.780s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Review Offer Letter,Chrome 95.0.4638.69,,,2021-11-23 15:52:49,2021-11-23 15:54:15,1m - 25.560s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:52:49,2021-11-23 15:52:51,1.935s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:52:51,2021-11-23 15:53:00,8.501s,PASSED
+"setText(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN019641"")",Chrome 95.0.4638.69,,,2021-11-23 15:53:00,2021-11-23 15:53:01,1.434s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:53:01,2021-11-23 15:53:02,0.404s,PASSED
+"click(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:53:02,2021-11-23 15:53:02,0.492s,PASSED
+"click(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:53:02,2021-11-23 15:53:08,5.388s,PASSED
+"click(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:53:08,2021-11-23 15:53:08,0.482s,PASSED
+"click(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/div_equalizerDashboardbusinessAdminkeyboard_a4980d""))",Chrome 95.0.4638.69,,,2021-11-23 15:53:08,2021-11-23 15:53:09,0.485s,PASSED
+"click(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/a_View_ui-paginator-last ui-paginator-eleme_7bfffe""))",Chrome 95.0.4638.69,,,2021-11-23 15:53:09,2021-11-23 15:53:40,31.427s,PASSED
+"click(findTestObject(""Object Repository/Review Offer Letter/Page_Fintrak  Core Banking/a_View""))",Chrome 95.0.4638.69,,,2021-11-23 15:53:40,2021-11-23 15:54:15,35.006s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Job Request,Chrome 95.0.4638.69,,,2021-11-23 15:56:17,2021-11-23 15:57:15,57.762s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:56:17,2021-11-23 15:56:19,1.884s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:56:19,2021-11-23 15:56:29,9.879s,PASSED
+"setText(findTestObject(""Object Repository/Job Request/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""TN091176"")",Chrome 95.0.4638.69,,,2021-11-23 15:56:29,2021-11-23 15:56:31,1.583s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Job Request/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:56:31,2021-11-23 15:56:31,0.429s,PASSED
+"click(findTestObject(""Object Repository/Job Request/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:56:31,2021-11-23 15:56:32,0.480s,PASSED
+"click(findTestObject(""Object Repository/Job Request/Page_Fintrak  Core Banking/span_Job Request""))",Chrome 95.0.4638.69,,,2021-11-23 15:56:32,2021-11-23 15:56:40,8.289s,PASSED
+"click(findTestObject(""Object Repository/Job Request/Page_Fintrak  Core Banking/span_Job Request Status""))",Chrome 95.0.4638.69,,,2021-11-23 15:56:40,2021-11-23 15:56:40,0.486s,PASSED
+"click(findTestObject(""Object Repository/Job Request/Page_Fintrak  Core Banking/span_ui-btn_ui-button-icon-left ui-clickabl_040a0b""))",Chrome 95.0.4638.69,,,2021-11-23 15:56:40,2021-11-23 15:57:15,34.727s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Availment Route,Chrome 95.0.4638.69,,,2021-11-23 15:58:28,2021-11-23 15:58:56,28.312s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 15:58:28,2021-11-23 15:58:30,1.831s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 15:58:30,2021-11-23 15:58:39,9.554s,PASSED
+"setText(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN021557"")",Chrome 95.0.4638.69,,,2021-11-23 15:58:39,2021-11-23 15:58:41,1.507s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 15:58:41,2021-11-23 15:58:41,0.400s,PASSED
+"click(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 15:58:41,2021-11-23 15:58:42,0.467s,PASSED
+"click(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 15:58:42,2021-11-23 15:58:47,5.770s,PASSED
+"click(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 15:58:47,2021-11-23 15:58:48,0.489s,PASSED
+"click(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/span_Routing""))",Chrome 95.0.4638.69,,,2021-11-23 15:58:48,2021-11-23 15:58:48,0.605s,PASSED
+"click(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/span_Availment Route""))",Chrome 95.0.4638.69,,,2021-11-23 15:58:48,2021-11-23 15:58:49,0.580s,PASSED
+"click(findTestObject(""Object Repository/Availment Route/Page_Fintrak  Core Banking/div_Status_ui-radiobutton-box ui-widget ui-_5ff151""))",Chrome 95.0.4638.69,,,2021-11-23 15:58:49,2021-11-23 15:58:56,7.101s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As DASPAN,Chrome 95.0.4638.69,,,2021-11-23 16:03:57,2021-11-23 16:05:27,1m - 29.951s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:03:57,2021-11-23 16:03:59,1.934s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:03:59,2021-11-23 16:04:05,6.087s,PASSED
+"setText(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN023919"")",Chrome 95.0.4638.69,,,2021-11-23 16:04:05,2021-11-23 16:04:06,1.506s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 16:04:06,2021-11-23 16:04:07,0.427s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:07,2021-11-23 16:04:07,0.475s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:07,2021-11-23 16:04:11,4.172s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:11,2021-11-23 16:04:12,0.626s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/span_Availment""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:12,2021-11-23 16:04:12,0.492s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_View Details""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:12,2021-11-23 16:04:21,8.743s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/span_Checklists  Collateral""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:21,2021-11-23 16:04:32,11.087s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_Use""))",Chrome 95.0.4638.69,,,2021-11-23 16:04:32,2021-11-23 16:05:04,31.477s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/button_Checklist""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:04,2021-11-23 16:05:04,0.425s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_Regulatory Checklist""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:04,2021-11-23 16:05:05,0.454s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/input_Yes_0""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:05,2021-11-23 16:05:07,2.262s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/input_Yes_1""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:07,2021-11-23 16:05:07,0.387s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/input_Yes_2""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:07,2021-11-23 16:05:08,0.403s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/button_Save""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:08,2021-11-23 16:05:08,0.388s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/button_Checklist""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:08,2021-11-23 16:05:10,1.623s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_Pre-lending call grid""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:10,2021-11-23 16:05:10,0.420s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/button_Done""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:10,2021-11-23 16:05:13,3.184s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/button_Checklist""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:13,2021-11-23 16:05:14,0.508s,PASSED
+"click(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/a_Loan Eligibility Checklist""))",Chrome 95.0.4638.69,,,2021-11-23 16:05:14,2021-11-23 16:05:14,0.430s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Login As DASPAN/Page_Fintrak  Core Banking/select_-- Select Facility --1800000 - CASH _d74700""), ""23017"", true)",Chrome 95.0.4638.69,,,2021-11-23 16:05:14,2021-11-23 16:05:27,12.433s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Booking,Chrome 95.0.4638.69,,,2021-11-23 16:06:18,2021-11-23 16:06:38,19.572s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:06:18,2021-11-23 16:06:20,1.820s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:06:20,2021-11-23 16:06:29,9.171s,PASSED
+"setText(findTestObject(""Object Repository/Booking/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN019641"")",Chrome 95.0.4638.69,,,2021-11-23 16:06:29,2021-11-23 16:06:31,1.435s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Booking/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 16:06:31,2021-11-23 16:06:31,0.449s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:31,2021-11-23 16:06:31,0.477s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:31,2021-11-23 16:06:37,5.060s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:37,2021-11-23 16:06:37,0.483s,PASSED
+"click(findTestObject(""Object Repository/Booking/Page_Fintrak  Core Banking/div_Job request Report_nano-slider""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:37,2021-11-23 16:06:38,0.674s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/BM Login For Booking,Chrome 95.0.4638.69,,,2021-11-23 16:06:38,2021-11-23 16:08:03,1m - 25.791s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:06:38,2021-11-23 16:06:40,1.813s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:06:40,2021-11-23 16:06:46,6.319s,PASSED
+"setText(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""SN017882"")",Chrome 95.0.4638.69,,,2021-11-23 16:06:46,2021-11-23 16:06:47,1.428s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 16:06:47,2021-11-23 16:06:48,0.434s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:48,2021-11-23 16:06:48,0.473s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/span_Approvals""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:48,2021-11-23 16:06:56,7.216s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:56,2021-11-23 16:06:56,0.517s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/span_Tranche Booking""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:56,2021-11-23 16:06:57,0.598s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/div_Tenor_ui-radiobutton-box ui-widget ui-r_e08dde""))",Chrome 95.0.4638.69,,,2021-11-23 16:06:57,2021-11-23 16:07:15,17.871s,PASSED
+"setText(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/textarea_Comment_comment""), ""k"")",Chrome 95.0.4638.69,,,2021-11-23 16:07:15,2021-11-23 16:07:44,28.977s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/select_--- Select Approval Status ---Approv_84b2d4""), ""2"", true)",Chrome 95.0.4638.69,,,2021-11-23 16:07:44,2021-11-23 16:07:45,1.078s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/button_Submit""))",Chrome 95.0.4638.69,,,2021-11-23 16:07:45,2021-11-23 16:07:45,0.553s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/button_Yes""))",Chrome 95.0.4638.69,,,2021-11-23 16:07:45,2021-11-23 16:07:46,0.517s,PASSED
+"click(findTestObject(""Object Repository/BM Login For Booking/Page_Fintrak  Core Banking/button_OK""))",Chrome 95.0.4638.69,,,2021-11-23 16:07:46,2021-11-23 16:08:03,17.742s,PASSED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As CRMS,Chrome 95.0.4638.69,To capture crms code,,2021-11-23 16:09:16,2021-11-23 16:09:42,26.302s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:09:16,2021-11-23 16:09:17,1.842s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:09:17,2021-11-23 16:09:24,7.051s,PASSED
+"setText(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""sn026155"")",Chrome 95.0.4638.69,,,2021-11-23 16:09:24,2021-11-23 16:09:26,1.373s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 16:09:26,2021-11-23 16:09:26,0.437s,PASSED
+"click(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 16:09:26,2021-11-23 16:09:27,0.463s,PASSED
+"click(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 16:09:27,2021-11-23 16:09:30,3.213s,PASSED
+"click(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 16:09:30,2021-11-23 16:09:30,0.518s,PASSED
+"click(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/span_Capture CRMS Code""))",Chrome 95.0.4638.69,,,2021-11-23 16:09:30,2021-11-23 16:09:31,0.597s,PASSED
+"click(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/div_Status_ui-radiobutton-box ui-widget ui-_5ff151""))",Chrome 95.0.4638.69,,,2021-11-23 16:09:31,2021-11-23 16:09:34,3.318s,PASSED
+"click(findTestObject(""Object Repository/Login As CRMS/Page_Fintrak  Core Banking/span_Capture CRMS Code""))",Chrome 95.0.4638.69,,,2021-11-23 16:09:34,2021-11-23 16:09:42,7.486s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Operation Re-Route,Chrome 95.0.4638.69,,,2021-11-23 16:10:33,2021-11-23 16:10:49,15.607s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:10:33,2021-11-23 16:10:35,1.825s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:10:35,2021-11-23 16:10:41,5.479s,PASSED
+"setText(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""sn013884"")",Chrome 95.0.4638.69,,,2021-11-23 16:10:41,2021-11-23 16:10:42,1.475s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 16:10:42,2021-11-23 16:10:42,0.442s,PASSED
+"click(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 16:10:42,2021-11-23 16:10:43,0.488s,PASSED
+"click(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 16:10:43,2021-11-23 16:10:46,3.077s,PASSED
+"click(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/span_Credit Origination""))",Chrome 95.0.4638.69,,,2021-11-23 16:10:46,2021-11-23 16:10:47,0.473s,PASSED
+"click(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/span_Booking""))",Chrome 95.0.4638.69,,,2021-11-23 16:10:47,2021-11-23 16:10:47,0.584s,PASSED
+"click(findTestObject(""Object Repository/Operation Re-Route/Page_Fintrak  Core Banking/button_Display Route""))",Chrome 95.0.4638.69,,,2021-11-23 16:10:47,2021-11-23 16:10:49,1.759s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As Modifier,Chrome 95.0.4638.69,,,2021-11-23 16:16:43,2021-11-23 16:16:45,2.189s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:16:43,2021-11-23 16:16:45,1.815s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:16:45,2021-11-23 16:16:45,0.366s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As The Verfier,Chrome 95.0.4638.69,,,2021-11-23 16:16:52,2021-11-23 16:16:54,2.185s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:16:52,2021-11-23 16:16:54,1.768s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:16:54,2021-11-23 16:16:54,0.414s,FAILED
+,,,,,,,
+Test Cases/FBN Credit360 LOS Opeartion/Login As The Completer,Chrome 95.0.4638.69,,,2021-11-23 16:18:22,2021-11-23 16:18:39,17.127s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-11-23 16:18:22,2021-11-23 16:18:24,1.812s,PASSED
+"navigateToUrl(""https://fintrakcredit360web-fb.azurewebsites.net/#/"")",Chrome 95.0.4638.69,,,2021-11-23 16:18:24,2021-11-23 16:18:29,5.314s,PASSED
+"setText(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/input_Log In_auth-name""), ""sn013884"")",Chrome 95.0.4638.69,,,2021-11-23 16:18:29,2021-11-23 16:18:31,1.489s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/input_Log In_auth-password""), ""JltEQgaE0YE="")",Chrome 95.0.4638.69,,,2021-11-23 16:18:31,2021-11-23 16:18:31,0.401s,PASSED
+"click(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/button_Log In""))",Chrome 95.0.4638.69,,,2021-11-23 16:18:31,2021-11-23 16:18:32,0.460s,PASSED
+"click(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/span_Approvals""))",Chrome 95.0.4638.69,,,2021-11-23 16:18:32,2021-11-23 16:18:35,3.128s,PASSED
+"click(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/span_Credit""))",Chrome 95.0.4638.69,,,2021-11-23 16:18:35,2021-11-23 16:18:35,0.471s,PASSED
+"click(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/span_Disbursement""))",Chrome 95.0.4638.69,,,2021-11-23 16:18:35,2021-11-23 16:18:36,0.606s,PASSED
+"click(findTestObject(""Object Repository/Login As The Completer/Page_Fintrak  Core Banking/div_Loan Amount_ui-radiobutton-box ui-widge_b43808""))",Chrome 95.0.4638.69,,,2021-11-23 16:18:36,2021-11-23 16:18:39,3.443s,FAILED
